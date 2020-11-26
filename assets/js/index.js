@@ -1,0 +1,25 @@
+let heroTitle = document.querySelector("#hero-title");
+let cardImageOne = document.querySelector("#card-image-1");
+let cardImageTwo = document.querySelector("#card-image-2");
+let cardImageThree = document.querySelector("#card-image-3");
+let cardImageFour = document.querySelector("#card-image-4");
+let cardTextOne = document.querySelector("#card-text-1");
+let cardTextTwo = document.querySelector("#card-text-2");
+let cardTextThree = document.querySelector("#card-text-3");
+let cardTextFour = document.querySelector("#card-text-4");
+let aboutMeTitle = document.querySelector("#aboutMe-title");
+let aboutMeText = document.querySelector("#aboutMe-text");
+let gallery = document.querySelector("#gallery");
+
+ScrollReveal().reveal(heroTitle, { delay: 250 });
+ScrollReveal().reveal(cardImageOne, { delay: 250 });
+ScrollReveal().reveal(cardImageTwo, { delay: 350 });
+ScrollReveal().reveal(cardImageThree, { delay: 450 });
+ScrollReveal().reveal(cardImageFour, { delay: 550 });
+ScrollReveal().reveal(cardTextOne, { delay: 300 });
+ScrollReveal().reveal(cardTextTwo, { delay: 400 });
+ScrollReveal().reveal(cardTextThree, { delay: 500 });
+ScrollReveal().reveal(cardTextFour, { delay: 600 });
+ScrollReveal().reveal(aboutMeTitle, { delay: 350 });
+ScrollReveal().reveal(aboutMeText, { delay: 450 });
+ScrollReveal().reveal(gallery, { delay: 500 });

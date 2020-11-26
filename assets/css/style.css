@@ -1,0 +1,241 @@
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600px;
+    line-height: 80px;
+}
+
+p {
+    font-size: 1.5 px;
+    color: #333333;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.topmargin-xs { margin-top: 15px; }
+.topmargin-sm { margin-top: 30px; }
+.topmargin-lg { margin-top: 60px; }
+
+
+.top-padding-xs { padding-top: 15px; }
+.top-padding-sm { padding-top: 30px; }
+.top-padding-lg { padding-top: 60px; }
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 16opx;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-light {
+    background-color: #ffffff;
+    color: #333333;
+    border: 2px solid #ffffff;
+}
+
+.btn i {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+/*  Navbar */
+.navbar {
+    background: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    min-height: 80px;
+}
+
+.navbar-brand:hover {
+    color: #f19292;
+}
+
+.nav-link {
+    color: #333333;
+}
+
+.nav-link:hover {
+    color: #f19292;
+}
+
+.navbar-brand{
+    color: #333333;
+}
+
+.logo-brand {
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.navbar-toggler {
+    font-size: 30px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+/* Hero */
+#hero {
+    background-image: url('/assets/img/nails-love-min.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #f19292;
+}
+
+#hero h1 {
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #333333
+}
+
+#hero p{
+    color: #000000;
+    font-weight: bold;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 90px auto 60px auto;
+    text-align: center;
+}
+
+/* Service */
+
+#services {
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.card-image{
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card-image:hover {
+    border: 2px solid #f19292;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card-text {
+    color: #f19292;
+}
+
+/* AboutME */
+#aboutMe {
+    background-image: url('/assets/img/smalte-pro.jpg');   
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    color: #ffffff;
+}
+
+#aboutMe p{
+    color: #ffffff;
+}
+.aboutMe-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* carousel */
+#gallery {
+    margin-top: 90px;
+}
+
+.carousel-item img {
+    cursor: pointer;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
+.carousel-indicators li {
+    background-color: #333333;
+}
+
+/* Footer */
+#footer {
+    background: #ffffff;
+    margin-top: 90px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    min-height: 100px;
+}
+
+#footer p{
+    color: #333333;
+}
+
+.social-networks a {
+    padding: 30px;
+}
+
+.social-networks i{
+    color: #333333;
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+.social-networks i:hover{
+    color: #f19292;
+}
+
+@media (max-width: 575.98px) { 
+    h1 {
+        font-size: 3rem;
+        line-height: normal;
+    }
+    .services-container {
+        flex-wrap: wrap;
+    }
+    
+    #hero {
+        min-height: 500px;
+        background-position: center;
+    }
+
+    .carousel-item .inactive {
+        display: none;
+    }
+
+    .carousel-indicators li {
+        width: 20px;
+    }
+
+    .aboutMe-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutMe-content p {
+        margin-top: 15px;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .carousel-item .inactive {
+        display: none;
+    }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+@media (min-width: 1200px) { }
